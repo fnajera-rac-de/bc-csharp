@@ -155,7 +155,10 @@ namespace Org.BouncyCastle.Bcpg.OpenPgp
                 case PublicKeyAlgorithmTag.ECDsa:
                     encAlg = "ECDSA";
                     break;
-                case PublicKeyAlgorithmTag.ElGamalEncrypt: // in some malformed cases.
+				case PublicKeyAlgorithmTag.EdDsa:
+					encAlg = "EdDSA";
+					break;
+				case PublicKeyAlgorithmTag.ElGamalEncrypt: // in some malformed cases.
 				case PublicKeyAlgorithmTag.ElGamalGeneral:
 					encAlg = "ElGamal";
 					break;
