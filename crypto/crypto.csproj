@@ -5269,6 +5269,11 @@
                     BuildAction = "Compile"
                 />
                 <File
+                    RelPath = "src\crypto\signers\EdDsa25519Signer.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
                     RelPath = "src\crypto\signers\GenericSigner.cs"
                     SubType = "Code"
                     BuildAction = "Compile"
@@ -7414,7 +7419,12 @@
                     BuildAction = "Compile"
                 />
                 <File
-                    RelPath = "src\openpgp\SXprUtilities.cs"
+                    RelPath = "src\openpgp\SXprReader.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\openpgp\SXprWriter.cs"
                     SubType = "Code"
                     BuildAction = "Compile"
                 />
