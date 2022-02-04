@@ -391,6 +391,8 @@
     <Compile Include="src\openpgp\test\PGPCompressionTest.cs" />
     <Compile Include="src\openpgp\test\PGPDSAElGamalTest.cs" />
     <Compile Include="src\openpgp\test\PGPDSATest.cs" />
+    <Compile Include="src\openpgp\test\PgpEdDsaTest2.cs" />
+    <Compile Include="src\openpgp\test\PgpEdDsaTest.cs" />
     <Compile Include="src\openpgp\test\PgpFeaturesTest.cs" />
     <Compile Include="src\openpgp\test\PGPNoPrivateKeyTest.cs" />
     <Compile Include="src\openpgp\test\PGPPBETest.cs" />
